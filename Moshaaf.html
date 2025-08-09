@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quraan Kareem</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #eee;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      margin: 0;
+ .header-with-image {
+  position: relative;
+  height: 400px;
+  background: url('file:///C:/Users/Mega%20Store/Pictures/Saved%20Pictures/20160623_11081%20(1).png') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+    .header-with-image h3 {
+      color: white;
+      font-size: 36px;
+      font-weight:blood ;
+      text-shadow: 2px 1px 1px rgba(0,0,0,0.7);
+      margin: 0;   }
+    #searchInput {
+      display: block;
+      margin: 0 auto 30px auto;
+      padding: 10px 15px;
+      width: 320px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: none;
+      background-color: #222;
+      color: #eee;
+      outline: none;
+      transition: background-color 0.3s;
+    }
+    #searchInput::placeholder {
+      color: #888;
+    }
+    #searchInput:focus {
+      background-color: #333;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      color: #eee;
+      max-width: 900px;
+      margin: 0 auto;
+    
+    }
+    #searchInput {
+      display: block;
+      margin: 0 auto 30px auto;
+      padding: 10px 15px;
+      width: 320px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: none;
+      background-color: #222;
+      color: #eee;
+      outline: none;
+      transition: background-color 0.3s;
+    }
+    #searchInput::placeholder {
+      color: #888;
+    }
+    #searchInput:focus {
+      background-color: #333;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      color: #eee;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    th, td {
+      border: 1px solid #444;
+      padding: 10px 12px;
+      text-align: center;
+      font-size: 16px;
+    }
+    th {
+      background-color: #222;
+      font-weight: 600;
+    }
+    td a {
+      color: #4fc3f7;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    td a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="header-with-image">
+    <h3>Quraan Kareem</h3>
+  </div>
+
+  <input type="text" id="searchInput" placeholder="Search Surah Name..." />
+
+  <table id="quranTable" aria-label="List of Quran Chapters">
+    <thead>
+      <tr>
+        <th>No.</th>
+        <th>Surah Name</th>
+        <th>Type</th>
+        <th>Number of Verses</th>
+        <th>Page</th>
+      </tr>
+    </thead>
+
+                                       <footer style="text-align: center;">
+  <p>*وَلَذِكْرُ الله أَكْبَر*</p>
+</footer>
+
+<table>
+      <tr>
+        <th>1</th>
+        <td><a href="https://surahquran.com/mp3/Mansour/1.html">Al-Fatiha</a></td>
+        <td>Meccan</td>
+        <td>7</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <th>2</th>
+        <td><a href="https://surahquran.com/mp3/Mansour/2.html">Al-Baqarah</a></td>
+        <td>Madinah</td>
+        <td>286</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <th>3</th>
+        <td><a href="https://surahquran.com/mp3/Mansour/3.html">Aal Imran</a></td>
+        <td>Madinah</td>
+        <td>200</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <th>4</th>
+        <td><a href="https://surahquran.com/mp3/Mansour/4.html">An-Nisa</a></td>
+        <td>Madinah</td>
+        <td>176</td>
+        <td>77</td>
+      </tr>
+      <tr>
+        <th>5</th>
+        <td><a href="https://surahquran.com/mp3/Mansour/5.html">Al-Ma'idah</a></td>
+        <td>Madinah</td>
+        <td>120</td>
+        <td>106</td>
+      </tr>
+      <tr>
+        <th>6</th>
+        <td><a href="https://surahquran.com/mp3/Mansour/6.html">Al-An'am</a></td>
+        <td>Meccan</td>
+        <td>165</td>
+        <td>128</td>
+      </tr>
+      <tr>
+        <th>7</th>
+        <td><a href="https://surahquran.com/mp3/Mansour/7.html">Al-A'raf</a></td>
+        <td>Meccan</td>
+        <td>206</td>
+        <td>151</td>
+      </tr>
+      <tr>
+        <th>8</th>
+        <td><a href="https://surahquran.com/mp3/Mansour/8.html">Al-Anfal</a></td>
+        <td>Madinah</td>
+        <td>75</td>
+        <td>177</td>
+      </tr>
+      <tr>
+        <th>9</th>
+        <td><a href="https://surahquran.com/mp3/Mansour/9.html">At-Tawbah</a></td>
+        <td>Madinah</td>
+        <td>129</td>
+        <td>187</td>
+      </tr>
+      <tr>
+        <th>10</th>
+        <td><a href="https://surahquran.com/mp3/Mansour/10.html">Yunus</a></td>
+        <td>Meccan</td>
+        <td>109</td>
+        <td>208</td>
+      </tr>
+<tr>
+  <th>11</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/11.html">Hud</a></td>
+  <td>Meccan</td>
+  <td>123</td>
+  <td>221</td>
+</tr>
+<tr>
+  <th>12</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/12.html">Yusuf</a></td>
+  <td>Meccan</td>
+  <td>111</td>
+  <td>235</td>
+</tr>
+<tr>
+  <th>13</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/13.html">Ar-Ra'd</a></td>
+  <td>Medinan</td>
+  <td>43</td>
+  <td>249</td>
+</tr>
+<tr>
+  <th>14</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/14.html">Ibrahim</a></td>
+  <td>Meccan</td>
+  <td>52</td>
+  <td>255</td>
+</tr>
+<tr>
+  <th>15</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/15.html">Al-Hijr</a></td>
+  <td>Meccan</td>
+  <td>99</td>
+  <td>262</td>
+</tr>
+<tr>
+  <th>16</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/16.html">An-Nahl</a></td>
+  <td>Meccan</td>
+  <td>128</td>
+  <td>267</td>
+</tr>
+<tr>
+  <th>17</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/17.html">Al-Isra</a></td>
+  <td>Meccan</td>
+  <td>111</td>
+  <td>282</td>
+</tr>
+<tr>
+  <th>18</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/18.html">Al-Kahf</a></td>
+  <td>Meccan</td>
+  <td>110</td>
+  <td>293</td>
+</tr>
+<tr>
+  <th>19</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/19.html">Maryam</a></td>
+  <td>Meccan</td>
+  <td>98</td>
+  <td>305</td>
+</tr>
+<tr>
+  <th>20</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/20.html">Ta-Ha</a></td>
+  <td>Meccan</td>
+  <td>135</td>
+  <td>312</td>
+</tr>
+
+  <th>36</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/36.html">Ya-Sin</a></td>
+  <td>Meccan</td>
+  <td>83</td>
+  <td>440</td>
+</tr>
+<tr>
+  <th>37</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/37.html">As-Saffat</a></td>
+  <td>Meccan</td>
+  <td>182</td>
+  <td>446</td>
+</tr>
+<tr>
+  <th>38</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/38.html">Sad</a></td>
+  <td>Meccan</td>
+  <td>88</td>
+  <td>453</td>
+</tr>
+<tr>
+  <th>39</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/39.html">Az-Zumar</a></td>
+  <td>Meccan</td>
+  <td>75</td>
+  <td>458</td>
+</tr>
+<tr>
+  <th>40</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/40.html">Ghafir</a></td>
+  <td>Meccan</td>
+  <td>85</td>
+  <td>467</td>
+</tr>
+<tr>
+  <th>41</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/41.html">Fussilat</a></td>
+  <td>Meccan</td>
+  <td>54</td>
+  <td>477</td>
+</tr>
+<tr>
+  <th>42</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/42.html">Ash-Shura</a></td>
+  <td>Meccan</td>
+  <td>53</td>
+  <td>483</td>
+</tr>
+<tr>
+  <th>43</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/43.html">Az-Zukhruf</a></td>
+  <td>Meccan</td>
+  <td>89</td>
+  <td>489</td>
+</tr>
+<tr>
+  <th>44</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/44.html">Ad-Dukhan</a></td>
+  <td>Meccan</td>
+  <td>59</td>
+  <td>496</td>
+</tr>
+<tr>
+  <th>45</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/45.html">Al-Jathiyah</a></td>
+  <td>Meccan</td>
+  <td>37</td>
+  <td>499</td>
+</tr>
+<tr>
+  <th>46</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/46.html">Al-Ahqaf</a></td>
+  <td>Meccan</td>
+  <td>35</td>
+  <td>502</td>
+</tr>
+<tr>
+  <th>47</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/47.html">Muhammad</a></td>
+  <td>Medinan</td>
+  <td>38</td>
+  <td>507</td>
+</tr>
+<tr>
+  <th>48</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/48.html">Al-Fath</a></td>
+  <td>Medinan</td>
+  <td>29</td>
+  <td>511</td>
+</tr>
+<tr>
+  <th>49</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/49.html">Al-Hujurat</a></td>
+  <td>Medinan</td>
+  <td>18</td>
+  <td>515</td>
+</tr>
+<tr>
+  <th>50</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/50.html">Qaf</a></td>
+  <td>Meccan</td>
+  <td>45</td>
+  <td>518</td>
+</tr>
+<tr>
+  <th>51</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/51.html">Adh-Dhariyat</a></td>
+  <td>Meccan</td>
+  <td>60</td>
+  <td>520</td>
+</tr>
+<tr>
+  <th>52</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/52.html">At-Tur</a></td>
+  <td>Meccan</td>
+  <td>49</td>
+  <td>523</td>
+</tr>
+<tr>
+  <th>53</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/53.html">An-Najm</a></td>
+  <td>Meccan</td>
+  <td>62</td>
+  <td>526</td>
+</tr>
+<tr>
+  <th>54</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/54.html">Al-Qamar</a></td>
+  <td>Meccan</td>
+  <td>55</td>
+  <td>528</td>
+</tr>
+<tr>
+  <th>55</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/55.html">Ar-Rahman</a></td>
+  <td>Medinan</td>
+  <td>78</td>
+  <td>531</td>
+</tr>
+<tr>
+  <th>56</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/56.html">Al-Waqi'a</a></td>
+  <td>Meccan</td>
+  <td>96</td>
+  <td>534</td>
+</tr>
+<tr>
+  <th>57</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/57.html">Al-Hadid</a></td>
+  <td>Medinan</td>
+  <td>29</td>
+  <td>537</td>
+</tr>
+<tr>
+  <th>58</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/58.html">Al-Mujadila</a></td>
+  <td>Medinan</td>
+  <td>22</td>
+  <td>542</td>
+</tr>
+<tr>
+  <th>59</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/59.html">Al-Hashr</a></td>
+  <td>Medinan</td>
+  <td>24</td>
+  <td>545</td>
+</tr>
+<tr>
+  <th>60</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/60.html">Al-Mumtahina</a></td>
+  <td>Medinan</td>
+  <td>13</td>
+  <td>549</td>
+</tr>
+<tr>
+  <th>61</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/61.html">As-Saff</a></td>
+  <td>Medinan</td>
+  <td>14</td>
+  <td>551</td>
+</tr>
+<tr>
+  <th>62</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/62.html">Al-Jumu'ah</a></td>
+  <td>Medinan</td>
+  <td>11</td>
+  <td>553</td>
+</tr>
+<tr>
+  <th>63</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/63.html">Al-Munafiqun</a></td>
+  <td>Medinan</td>
+  <td>11</td>
+  <td>554</td>
+</tr>
+<tr>
+  <th>64</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/64.html">At-Taghabun</a></td>
+  <td>Medinan</td>
+  <td>18</td>
+  <td>556</td>
+</tr>
+<tr>
+  <th>65</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/65.html">At-Talaq</a></td>
+  <td>Medinan</td>
+  <td>12</td>
+  <td>558</td>
+</tr>
+<tr>
+  <th>66</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/66.html">At-Tahrim</a></td>
+  <td>Medinan</td>
+  <td>12</td>
+  <td>560</td>
+</tr>
+<tr>
+  <th>67</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/67.html">Al-Mulk</a></td>
+  <td>Meccan</td>
+  <td>30</td>
+  <td>562</td>
+</tr>
+<tr>
+  <th>68</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/68.html">Al-Qalam</a></td>
+  <td>Meccan</td>
+  <td>52</td>
+  <td>564</td>
+</tr>
+<tr>
+  <th>69</th</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/69.html">Al-Haqqah</a></td>
+  <td>Meccan</td>
+  <td>52</td>
+  <td>566</td>
+</tr>
+
+<tr>
+  <th>70</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/70.html">Al-Ma'arij</a></td>
+  <td>Meccan</td>
+  <td>44</td>
+  <td>568</td>
+</tr>
+<tr>
+  <th>71</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/71.html">Nuh</a></td>
+  <td>Meccan</td>
+  <td>28</td>
+  <td>570</td>
+</tr>
+<tr>
+  <th>72</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/72.html">Al-Jinn</a></td>
+  <td>Meccan</td>
+  <td>28</td>
+  <td>572</td>
+</tr>
+<tr>
+  <th>73</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/73.html">Al-Muzzammil</a></td>
+  <td>Meccan</td>
+  <td>20</td>
+  <td>574</td>
+</tr>
+<tr>
+  <th>74</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/74.html">Al-Muddaththir</a></td>
+  <td>Meccan</td>
+  <td>56</td>
+  <td>575</td>
+</tr>
+<tr>
+  <th>75</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/75.html">Al-Qiyamah</a></td>
+  <td>Meccan</td>
+  <td>40</td>
+  <td>577</td>
+</tr>
+<tr>
+  <th>76</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/76.html">Al-Insan</a></td>
+  <td>Medinan</td>
+  <td>31</td>
+  <td>578</td>
+</tr>
+<tr>
+  <th>77</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/77.html">Al-Mursalat</a></td>
+  <td>Meccan</td>
+  <td>50</td>
+  <td>580</td>
+</tr>
+<tr>
+  <th>78</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/78.html">An-Naba'</a></td>
+  <td>Meccan</td>
+  <td>40</td>
+  <td>582</td>
+</tr>
+
+<tr>
+  <th>79</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/79.html">An-Nazi'at</a></td>
+  <td>Meccan</td>
+  <td>46</td>
+  <td>583</td>
+</tr>
+<tr>
+  <th>80</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/80.html">Abasa</a></td>
+  <td>Meccan</td>
+  <td>42</td>
+  <td>585</td>
+</tr>
+<tr>
+  <th>81</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/81.html">At-Takwir</a></td>
+  <td>Meccan</td>
+  <td>29</td>
+  <td>587</td>
+</tr>
+<tr>
+  <th>82</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/82.html">Al-Infitar</a></td>
+  <td>Meccan</td>
+  <td>19</td>
+  <td>588</td>
+</tr>
+<tr>
+  <th>83</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/83.html">Al-Mutaffifin</a></td>
+  <td>Meccan</td>
+  <td>36</td>
+  <td>589</td>
+</tr>
+<tr>
+  <th>84</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/84.html">Al-Inshiqaq</a></td>
+  <td>Medinan</td>
+  <td>25</td>
+  <td>591</td>
+</tr>
+<tr>
+  <th>85</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/85.html">Al-Buruj</a></td>
+  <td>Meccan</td>
+  <td>22</td>
+  <td>592</td>
+</tr>
+<tr>
+  <th>86</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/86.html">At-Tariq</a></td>
+  <td>Meccan</td>
+  <td>17</td>
+  <td>593</td>
+</tr>
+<tr>
+  <th>87</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/87.html">Al-A'la</a></td>
+  <td>Meccan</td>
+  <td>19</td>
+  <td>594</td>
+</tr>
+<tr>
+  <th>88</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/88.html">Al-Ghashiyah</a></td>
+  <td>Meccan</td>
+  <td>26</td>
+  <td>595</td>
+</tr>
+<tr>
+  <th>89</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/89.html">Al-Fajr</a></td>
+  <td>Meccan</td>
+  <td>30</td>
+  <td>596</td>
+</tr>
+<tr>
+  <th>90</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/90.html">Al-Balad</a></td>
+  <td>Meccan</td>
+  <td>20</td>
+  <td>598</td>
+</tr>
+
+<tr>
+  <th>91</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/91.html">Ash-Shams</a></td>
+  <td>Meccan</td>
+  <td>15</td>
+  <td>599</td>
+</tr>
+<tr>
+  <th>92</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/92.html">Al-Lail</a></td>
+  <td>Meccan</td>
+  <td>21</td>
+  <td>600</td>
+</tr>
+<tr>
+  <th>93</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/93.html">Ad-Duha</a></td>
+  <td>Meccan</td>
+  <td>11</td>
+  <td>601</td>
+</tr>
+<tr>
+  <th>94</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/94.html">Ash-Sharh</a></td>
+  <td>Meccan</td>
+  <td>8</td>
+  <td>602</td>
+</tr>
+<tr>
+  <th>95</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/95.html">At-Tin</a></td>
+  <td>Meccan</td>
+  <td>8</td>
+  <td>603</td>
+</tr>
+<tr>
+  <th>96</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/96.html">Al-'Alaq</a></td>
+  <td>Meccan</td>
+  <td>19</td>
+  <td>604</td>
+</tr>
+<tr>
+  <th>97</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/97.html">Al-Qadr</a></td>
+  <td>Meccan</td>
+  <td>5</td>
+  <td>605</td>
+</tr>
+<tr>
+  <th>98</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/98.html">Al-Bayyina</a></td>
+  <td>Medinan</td>
+  <td>8</td>
+  <td>606</td>
+</tr>
+<tr>
+  <th>99</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/99.html">Az-Zalzalah</a></td>
+  <td>Medinan</td>
+  <td>8</td>
+  <td>607</td>
+</tr>
+<tr>
+  <th>100</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/100.html">Al-'Adiyat</a></td>
+  <td>Meccan</td>
+  <td>11</td>
+  <td>608</td>
+</tr>
+
+<tr>
+  <th>101</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/101.html">Al-Qari'a</a></td>
+  <td>Meccan</td>
+  <td>11</td>
+  <td>609</td>
+</tr>
+<tr>
+  <th>102</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/102.html">At-Takathur</a></td>
+  <td>Meccan</td>
+  <td>8</td>
+  <td>610</td>
+</tr>
+<tr>
+  <th>103</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/103.html">Al-'Asr</a></td>
+  <td>Meccan</td>
+  <td>3</td>
+  <td>611</td>
+</tr>
+<tr>
+  <th>104</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/104.html">Al-Humaza</a></td>
+  <td>Meccan</td>
+  <td>9</td>
+  <td>612</td>
+</tr>
+<tr>
+  <th>105</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/105.html">Al-Fil</a></td>
+  <td>Meccan</td>
+  <td>5</td>
+  <td>613</td>
+</tr>
+<tr>
+  <th>106</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/106.html">Quraysh</a></td>
+  <td>Meccan</td>
+  <td>4</td>
+  <td>614</td>
+</tr>
+<tr>
+  <th>107</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/107.html">Al-Ma'un</a></td>
+  <td>Meccan</td>
+  <td>7</td>
+  <td>615</td>
+</tr>
+<tr>
+  <th>108</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/108.html">Al-Kawthar</a></td>
+  <td>Meccan</td>
+  <td>3</td>
+  <td>616</td>
+</tr>
+<tr>
+  <th>109</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/109.html">Al-Kafirun</a></td>
+  <td>Meccan</td>
+  <td>6</td>
+  <td>617</td>
+</tr>
+<tr>
+  <th>110</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/110.html">An-Nasr</a></td>
+  <td>Medinan</td>
+  <td>3</td>
+  <td>618</td>
+</tr>
+<tr>
+  <th>111</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/111.html">Al-Masad</a></td>
+  <td>Meccan</td>
+  <td>5</td>
+  <td>619</td>
+</tr>
+<tr>
+  <th>112</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/112.html">Al-Ikhlas</a></td>
+  <td>Meccan</td>
+  <td>4</td>
+  <td>620</td>
+</tr>
+<tr>
+  <th>113</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/113.html">Al-Falaq</a></td>
+  <td>Meccan</td>
+  <td>5</td>
+  <td>621</td>
+</tr>
+<tr>
+  <th>114</th>
+  <td style="font-size:17px"><a href="https://surahquran.com/mp3/Mansour/114.html">An-Nas</a></td>
+  <td>Meccan</td>
+  <td>6</td>
+  <td>622</td>
+</tr>
+
+</table>
+</section>
+    <footer style="
+    text-align: center; 
+    padding: 20px; 
+    font-size: 1.2em; 
+    font-weight: bold; 
+    color: #fff; 
+    background-color: #000; 
+    border-top: 2px solid #444;">
+  🤍 Made by Mostafa amer🤍
+  </footer>
+  </tbody>
+<footer>
+  <p>© 2025 Quraan Kareem</p>
+</footer>
+
+</body>
+</html>
